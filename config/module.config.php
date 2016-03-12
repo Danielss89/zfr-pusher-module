@@ -23,4 +23,7 @@ return array(
             'ZfrPusher\Service\PusherService' => 'ZfrPusherModule\Factory\PusherServiceFactory'
         ),
     ),
+    'zfr_pusher' => array(
+        'cluster' => 'us',
+    )
 );

@@ -23,6 +23,12 @@ return array(
          */
         // 'app_id' => '',
         // 'key'    => '',
-        // 'secret' => ''
+        // 'secret' => '',
+        
+        /**
+         * Optional
+         * Can be one of: us, eu, ap
+         */
+        // 'cluster' => 'us'
     )
 );

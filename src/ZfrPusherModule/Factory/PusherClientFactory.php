@@ -44,6 +44,6 @@ class PusherClientFactory implements FactoryInterface
 
         $config = $config['zfr_pusher'];
 
-        return new PusherClient(new Credentials($config['app_id'], $config['key'], $config['secret']));
+        return new PusherClient(new Credentials($config['app_id'], $config['key'], $config['secret'], $config['cluster']));
     }
 }
